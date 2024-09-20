@@ -1,0 +1,8 @@
+path: /media/dell/DATA/dataset_20230924/dataset_20230630/hand_detection/new
+train: train.txt
+val: val.txt
+test: test.txt
+
+names:
+  0: hand-something
+  1: hand-nothing

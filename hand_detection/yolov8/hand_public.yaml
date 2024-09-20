@@ -1,0 +1,9 @@
+path: /media/dell/DATA/dataset_20230924/dataset_20230630/hand_detection/public
+train: train.txt
+val: test.txt
+# test: test.txt
+
+# yolov8默认配置文件中无法对设置的test 测试集进行评估，需要将val的值改为测试集的数据文本，然后运行YOLO.val()进行评估
+
+names:
+  0: hand
